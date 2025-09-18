@@ -24,7 +24,7 @@ const testimonials = [
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
   const timer = useRef<NodeJS.Timeout | null>(null);
-  const scrollRef = useRef<HTMLDivElement | null>(null);
+   const scrollRef = useRef<HTMLDivElement | null>(null);
   const itemRefs = useRef<Array<HTMLDivElement | null>>([]);
 
   useEffect(() => {

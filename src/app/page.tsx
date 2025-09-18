@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 import Testimonials from "@/components/site/Testimonials";
 import { ArrowRight, Globe, LineChart, FileSpreadsheet, Ship, FileText, Plane } from "lucide-react";
+import Image from "next/image";
 
 const services = [
   { title: "Web Development", icon: Globe, href: "/services#web" },
@@ -71,9 +71,11 @@ export default function Home() {
             >
               {/* Hero illustration */}
               {/* Place your image at public/service.jpg */}
-              <img
+              <Image
                 src="/service.jpeg"
                 alt="Our services in action"
+                width={600}
+                height={400}
                 className="h-full w-full object-contain"
               />
             </motion.div>

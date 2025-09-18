@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Building2, Factory, Package, Store, Briefcase, Rocket, MapPin, ShieldCheck, Target, CheckCircle2, TrendingUp, Users, Award } from "lucide-react";
+import { Building2, Factory, Package, Store, Briefcase, Rocket, MapPin, ShieldCheck, Target, CheckCircle2, TrendingUp, Users } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const industries = [
@@ -20,7 +20,7 @@ export default function IndustriesPage() {
         Empowering diverse industries across the UAE with tailored expertise
       </motion.h1>
       <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="mt-4 max-w-3xl text-lg text-muted-foreground 2xl:text-xl">
-        From innovative startups and established SMEs to large corporations and e-commerce platforms — we understand the unique challenges and opportunities across every sector driving the UAE's dynamic economy.
+        From innovative startups and established SMEs to large corporations and e-commerce platforms — we understand the unique challenges and opportunities across every sector driving the UAE&apos;s dynamic economy.
       </motion.p>
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
