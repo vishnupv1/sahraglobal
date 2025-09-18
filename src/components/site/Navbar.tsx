@@ -18,6 +18,7 @@ const navItems = [
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
   const pathname = usePathname();
 
   const isActive = (href: string) => {
@@ -68,7 +69,7 @@ export function Navbar() {
         </nav>
 
         <div className="md:hidden">
-          <Sheet>
+          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" aria-label="Open menu">
                 <Menu className="h-5 w-5" />
@@ -82,6 +83,7 @@ export function Navbar() {
                     key={item.href}
                     href={item.href}
                     aria-current={isActive(item.href) ? "page" : undefined}
+                    onClick={() => setIsSheetOpen(false)}
                     className={`text-base rounded-md px-2 py-2 ${
                       isActive(item.href)
                         ? "font-semibold text-primary bg-secondary"
@@ -91,7 +93,7 @@ export function Navbar() {
                     {item.label}
                   </Link>
                 ))}
-                <Link href="/contact">
+                <Link href="/contact" onClick={() => setIsSheetOpen(false)}>
                   <Button className="w-full">Get a Free Consultation</Button>
                 </Link>
               </div>
