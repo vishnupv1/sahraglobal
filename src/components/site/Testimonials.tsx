@@ -24,8 +24,9 @@ const testimonials = [
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
   const timer = useRef<NodeJS.Timeout | null>(null);
-   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
   const itemRefs = useRef<Array<HTMLDivElement | null>>([]);
+  const didMount = useRef(false);
 
   useEffect(() => {
     timer.current = setInterval(() => {
@@ -36,11 +37,17 @@ export default function Testimonials() {
     };
   }, []);
 
-  // Sync horizontal scroll on mobile with active index
+  // Sync horizontal scroll on mobile with active index without vertical page jump
   useEffect(() => {
+    if (!didMount.current) {
+      didMount.current = true;
+      return;
+    }
+    const track = scrollRef.current;
     const el = itemRefs.current[index];
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    if (track && el) {
+      const left = el.offsetLeft - 12; // account for px-3 padding
+      track.scrollTo({ left, behavior: "smooth" });
     }
   }, [index]);
 
