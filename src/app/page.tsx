@@ -1,103 +1,130 @@
-import Image from "next/image";
+"use client";
+
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
+import Testimonials from "@/components/site/Testimonials";
+import { ArrowRight, Globe, LineChart, FileSpreadsheet, Ship, FileText, Plane } from "lucide-react";
+
+const services = [
+  { title: "Web Development", icon: Globe, href: "/services#web" },
+  { title: "Digital Marketing", icon: LineChart, href: "/services#marketing" },
+  { title: "Tax & Finance", icon: FileSpreadsheet, href: "/services#finance" },
+  { title: "Logistics", icon: Ship, href: "/services#logistics" },
+  { title: "Data Entry", icon: FileText, href: "/services#data-entry" },
+  { title: "Visa Services", icon: Plane, href: "/services#visa" },
+];
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="space-y-16 md:space-y-24 pb-0">
+      {/* Hero */}
+      <section className="relative overflow-hidden">
+        <div className="mx-auto w-full px-3 py-16 sm:px-4 lg:px-6 lg:py-20">
+          <div className="grid items-center gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-2">
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="text-4xl font-bold tracking-tight text-primary sm:text-5xl 2xl:text-6xl"
+              >
+                Enterprise-grade solutions for UAE businesses to build, scale, and grow with confidence
+              </motion.h1>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="mt-4 text-lg text-muted-foreground 2xl:text-xl"
+              >
+                From web development and digital marketing to tax, logistics, data entry, and visa assistance — we help you operate with confidence.
+              </motion.p>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="mt-8 flex flex-wrap items-center gap-3"
+              >
+                <Link href="/contact">
+                  <Button size="lg">Get a Free Consultation</Button>
+                </Link>
+                <Link href="/services">
+                  <Button size="lg" variant="outline">
+                    Explore Services
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </motion.div>
+              <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
+                <Badge className="bg-accent text-accent-foreground">Trusted by UAE SMEs</Badge>
+                <span>Fast turnaround • Local expertise</span>
+              </div>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+              className="relative hidden aspect-[16/9] max-h-80 overflow-hidden rounded-xl bg-white shadow-xl ring-1 ring-black/5 lg:block"
+            >
+              {/* Hero illustration */}
+              {/* Place your image at public/service.jpg */}
+              <img
+                src="/service.jpeg"
+                alt="Our services in action"
+                className="h-full w-full object-contain"
+              />
+            </motion.div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Services highlight */}
+      <section>
+        <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
+          <div className="mb-6 lg:mb-8 flex items-end justify-between">
+            <div>
+              <h2 className="text-2xl font-bold">What we do</h2>
+              <p className="text-muted-foreground">Full-stack services tailored for the UAE market.</p>
+            </div>
+            <Link href="/services" className="text-sm text-primary hover:underline">
+              View all
+            </Link>
+          </div>
+          <div className="grid gap-5 md:gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((s, i) => (
+              <motion.div key={s.title} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: i * 0.05 }}>
+                <Link href={s.href}>
+                  <Card className="group h-full transition hover:shadow-md">
+                    <CardHeader>
+                      <CardTitle className="flex items-center gap-3 text-lg">
+                        <s.icon className="h-5 w-5 text-accent" />
+                        {s.title}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">Learn how our {s.title.toLowerCase()} drives measurable results.</p>
+                    </CardContent>
+                  </Card>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section id="testimonials">
+        <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold">Client success</h2>
+            <p className="text-muted-foreground">Results that speak for themselves.</p>
+          </div>
+          <Testimonials />
+        </div>
+      </section>
     </div>
   );
 }
