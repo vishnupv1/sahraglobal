@@ -86,13 +86,15 @@ export default function Home() {
       {/* Services highlight */}
       <section>
         <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
-          <div className="mb-6 lg:mb-8 flex items-end justify-between">
+          <div className="mb-6 lg:mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="text-2xl font-bold">What we do</h2>
               <p className="text-muted-foreground">Full-stack services tailored for the UAE market.</p>
             </div>
-            <Link href="/services" className="text-sm text-primary hover:underline">
-              View all
+            <Link href="/services" className="sm:self-auto">
+              <Button size="sm" variant="outline" className="self-start">
+                View all
+              </Button>
             </Link>
           </div>
           <div className="grid gap-5 md:gap-6 sm:grid-cols-2 lg:grid-cols-3">
