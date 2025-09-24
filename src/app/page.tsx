@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Testimonials from "@/components/site/Testimonials";
 import { ArrowRight, Globe, LineChart, FileSpreadsheet, Ship, FileText, Plane } from "lucide-react";
-import Image from "next/image";
+ 
 
 const services = [
   { title: "Web Development", icon: Globe, href: "/services#web" },
@@ -21,64 +21,59 @@ const services = [
 export default function Home() {
   return (
     <div className="space-y-16 md:space-y-24 pb-0">
-      {/* Hero */}
+      {/* Hero (centered) */}
       <section className="relative overflow-hidden">
-        <div className="mx-auto w-full px-3 py-16 sm:px-4 lg:px-6 lg:py-20">
-          <div className="grid items-center gap-10 lg:grid-cols-3">
-            <div className="lg:col-span-2">
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="text-4xl font-bold tracking-tight text-primary sm:text-5xl 2xl:text-6xl"
-              >
-                Enterprise-grade solutions for UAE businesses to build, scale, and grow with confidence
-              </motion.h1>
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                className="mt-4 text-lg text-muted-foreground 2xl:text-xl"
-              >
-                From web development and digital marketing to tax, logistics, data entry, and visa assistance — we help you operate with confidence.
-              </motion.p>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className="mt-8 flex flex-wrap items-center gap-3"
-              >
-                <Link href="/contact">
-                  <Button size="lg">Get a Free Consultation</Button>
-                </Link>
-                <Link href="/services">
-                  <Button size="lg" variant="outline">
-                    Explore Services
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </Link>
-              </motion.div>
-              <div className="mt-6 flex items-center gap-2 text-xs text-muted-foreground">
-                <Badge className="bg-accent text-accent-foreground">Trusted by UAE SMEs</Badge>
-                <span>Fast turnaround • Local expertise</span>
-              </div>
-            </div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.98 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.15 }}
-              className="relative hidden aspect-[16/9] max-h-80 overflow-hidden rounded-xl bg-white shadow-xl ring-1 ring-black/5 lg:block"
-            >
-              {/* Hero illustration */}
-              {/* Place your image at public/service.jpg */}
-              <Image
-                src="/service.jpeg"
-                alt="Our services in action"
-                width={600}
-                height={400}
-                className="h-full w-full object-contain"
-              />
-            </motion.div>
+        <div className="mx-auto w-full max-w-3xl px-3 py-16 text-center sm:px-4 lg:px-6 lg:py-20">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl font-bold tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent sm:text-5xl 2xl:text-6xl"
+          >
+            Enterprise-grade solutions for UAE businesses
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground 2xl:text-xl"
+          >
+            Build, scale, and grow with confidence. We blend local compliance with modern engineering to deliver measurable outcomes.
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-8 flex flex-wrap items-center justify-center gap-3"
+          >
+            <Link href="/contact">
+              <Button size="lg">Get a Free Consultation</Button>
+            </Link>
+            <Link href="/services">
+              <Button size="lg" variant="outline">
+                Explore Services
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </motion.div>
+          <div className="mt-6 flex items-center justify-center gap-2 text-xs text-muted-foreground">
+            <Badge className="bg-accent text-accent-foreground">Trusted by UAE SMEs</Badge>
+            <span>Fast turnaround • Local expertise</span>
+          </div>
+        </div>
+
+        
+      </section>
+
+      {/* Trust logos */}
+      <section>
+        <div className="mx-auto w-full max-w-5xl px-3 sm:px-4 lg:px-6">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
+            <span>Trusted by</span>
+            <div className="h-4 w-16 rounded bg-muted" />
+            <div className="h-4 w-16 rounded bg-muted" />
+            <div className="h-4 w-16 rounded bg-muted" />
+            <div className="h-4 w-16 rounded bg-muted" />
           </div>
         </div>
       </section>

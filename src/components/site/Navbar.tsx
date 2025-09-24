@@ -38,7 +38,7 @@ export function Navbar() {
       <div className="mx-auto flex h-16 w-full items-center justify-between px-3 sm:px-4 lg:px-6">
         <Link href="/" className="flex items-center gap-2 font-semibold text-primary">
           <span className="inline-block h-3 w-3 rounded-sm bg-accent" />
-          <span>Sahra Global</span>
+          <span>Starway Link</span>
         </Link>
 
         <nav className="hidden md:block">

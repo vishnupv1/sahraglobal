@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-3 flex items-center gap-2 font-semibold text-primary">
               <span className="inline-block h-3 w-3 rounded-sm bg-accent" />
-              <span>Sahra Global</span>
+              <span>Starway Link</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Modern solutions for UAE businesses: web, marketing, finance, logistics, data entry, and visa services.
@@ -49,7 +49,7 @@ export default function Footer() {
         <Separator className="my-8" />
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-muted-foreground sm:flex-row">
           <p>
-            © {new Date().getFullYear()} Sahra Global. All rights reserved.
+            © {new Date().getFullYear()} Starway Link. All rights reserved.
           </p>
           <p>Made with care in the UAE.</p>
         </div>

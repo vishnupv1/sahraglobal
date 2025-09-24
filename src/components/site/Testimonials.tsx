@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [
   {
     quote:
-      "Sahra Global transformed our online presence and handled our UAE filings seamlessly.",
+      "Starway Link transformed our online presence and handled our UAE filings seamlessly.",
     author: "CEO, Dubai SME",
   },
   {
