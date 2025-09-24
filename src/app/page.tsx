@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Trust logos */}
-      <section>
+      {/* <section>
         <div className="mx-auto w-full max-w-5xl px-3 sm:px-4 lg:px-6">
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
             <span>Trusted by</span>
@@ -76,11 +76,11 @@ export default function Home() {
             <div className="h-4 w-16 rounded bg-muted" />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services highlight */}
       <section>
-        <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
+        <div className="mx-auto w-full px-5 sm:px-8 lg:px-12">
           <div className="mb-6 lg:mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="text-2xl font-bold">What we do</h2>
