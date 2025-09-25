@@ -43,7 +43,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  A digitally confident UAE where organizations operate efficiently and compliantly. We deliver scalable, secure, and outcome-driven services tailored to the region's unique landscape—so you can build, scale, and grow with confidence.
+                  A digitally confident UAE where organizations operate efficiently and compliantly. We deliver scalable, secure, and outcome-driven services tailored to the region&apos;s unique landscape—so you can build, scale, and grow with confidence.
                 </p>
               </CardContent>
             </Card>

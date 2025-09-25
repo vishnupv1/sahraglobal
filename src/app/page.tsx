@@ -3,22 +3,13 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 import Testimonials from "@/components/site/Testimonials";
 import WhatWeDo from "@/components/site/WhatWeDo";
-import TrustedBy from "@/components/site/TrustedBy";
-import { ArrowRight, Globe, LineChart, FileSpreadsheet, Ship, FileText, Plane, CheckCircle2, Briefcase, Package, Rocket, Building2, Star, TrendingUp, Users, Eye, Bell, Search, User } from "lucide-react";
+import { TrendingUp, Users, Eye, Bell, Search, User } from "lucide-react";
+import Image from "next/image";
  
 
-const services = [
-  { title: "Web Development", icon: Globe, href: "/services#web" },
-  { title: "Digital Marketing", icon: LineChart, href: "/services#marketing" },
-  { title: "Tax & Finance", icon: FileSpreadsheet, href: "/services#finance" },
-  { title: "Logistics", icon: Ship, href: "/services#logistics" },
-  { title: "Data Entry", icon: FileText, href: "/services#data-entry" },
-  { title: "Visa Services", icon: Plane, href: "/services#visa" },
-];
 
 export default function Home() {
   return (
@@ -40,10 +31,11 @@ export default function Home() {
           >
             <div className="hero-tag-wrapper inline-flex items-center gap-2 rounded-full border border-purple-200 bg-white/80 px-3 py-1 shadow-sm backdrop-blur-sm">
               {/* Tag icon image (from provided SVG URL) */}
-              <img
+              <Image
                 src="https://cdn.prod.website-files.com/68ac1aaf56a72b0ff377f38b/68c166d197f96432345f5011_Group%201000000819.svg"
                 alt="reviews-badge"
-                loading="lazy"
+                width={20}
+                height={20}
                 className="hero-tag-image h-5 w-5"
               />
               <div className="hero-tag-text text-sm font-medium text-purple-700">

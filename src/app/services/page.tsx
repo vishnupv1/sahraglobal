@@ -2,9 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { Globe, LineChart, FileSpreadsheet, Ship, FileText, Plane, CheckCircle2, Clock, Users, Award } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 
 const sections = [
   { id: "web", title: "Web Development", body: "Modern websites and apps using Next.js and best practices.", Icon: Globe },

@@ -64,7 +64,7 @@ export default function Testimonials() {
             >
               <Card className={`h-full border bg-white shadow-sm transition hover:shadow-md ${i === index ? "opacity-100" : "opacity-70"}`}>
                 <CardContent className="pt-6 text-sm text-muted-foreground">
-                  "{t.quote}"
+                  &ldquo;{t.quote}&rdquo;
                   <div className="mt-4 text-xs">{t.author}</div>
                 </CardContent>
               </Card>
@@ -78,7 +78,7 @@ export default function Testimonials() {
         {testimonials.map((t, i) => (
           <Card key={i} className={`h-full border bg-white shadow-sm transition hover:shadow-md ${i === index ? "opacity-100" : "opacity-70 transition-opacity"}`}>
             <CardContent className="pt-6 text-sm text-muted-foreground h-full">
-              "{t.quote}"
+              &ldquo;{t.quote}&rdquo;
               <div className="mt-4 text-xs">{t.author}</div>
             </CardContent>
           </Card>
