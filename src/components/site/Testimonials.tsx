@@ -62,9 +62,9 @@ export default function Testimonials() {
               ref={(node) => { itemRefs.current[i] = node; }}
               className="min-w-[85%] snap-start"
             >
-              <Card className={`transition-opacity ${i === index ? "opacity-100" : "opacity-70"}`}>
+              <Card className={`h-full border bg-white shadow-sm transition hover:shadow-md ${i === index ? "opacity-100" : "opacity-70"}`}>
                 <CardContent className="pt-6 text-sm text-muted-foreground">
-                  “{t.quote}”
+                  "{t.quote}"
                   <div className="mt-4 text-xs">{t.author}</div>
                 </CardContent>
               </Card>
@@ -76,9 +76,9 @@ export default function Testimonials() {
       {/* Desktop: 3-column grid */}
       <div className="hidden gap-6 md:grid md:grid-cols-3 items-stretch">
         {testimonials.map((t, i) => (
-          <Card key={i} className={`${i === index ? "opacity-100" : "opacity-70 transition-opacity"} h-full`}>
+          <Card key={i} className={`h-full border bg-white shadow-sm transition hover:shadow-md ${i === index ? "opacity-100" : "opacity-70 transition-opacity"}`}>
             <CardContent className="pt-6 text-sm text-muted-foreground h-full">
-              “{t.quote}”
+              "{t.quote}"
               <div className="mt-4 text-xs">{t.author}</div>
             </CardContent>
           </Card>

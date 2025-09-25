@@ -47,21 +47,21 @@
   /* Radii */
   --radius: 0.625rem;
 
-  /* UAE-inspired palette: deep blue, gold, clean neutrals */
+  /* Purple-inspired palette: modern purple, clean neutrals */
   --background: #f8fafc; /* neutral-50 */
   --foreground: #0a0f1a; /* near-black for high contrast */
   --card: #ffffff;
   --card-foreground: #0a0f1a;
   --popover: #ffffff;
   --popover-foreground: #0a0f1a;
-  --primary: #0a2540; /* deep corporate blue */
-  --primary-foreground: #f8fafc;
-  --secondary: #eef2f6; /* soft neutral */
-  --secondary-foreground: #0a2540;
-  --muted: #eef2f6;
-  --muted-foreground: #4b5563;
-  --accent: #c5a253; /* gold */
-  --accent-foreground: #0a0f1a;
+  --primary: #7c3aed; /* purple-600 */
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6; /* soft neutral */
+  --secondary-foreground: #374151;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --accent: #a855f7; /* purple-500 */
+  --accent-foreground: #ffffff;
   --destructive: #dc2626;
   --border: #e5e7eb;
   --input: #e5e7eb;
@@ -92,14 +92,14 @@
   --card-foreground: #f8fafc;
   --popover: #0f172a;
   --popover-foreground: #f8fafc;
-  --primary: #c5a253; /* gold as primary highlight in dark */
-  --primary-foreground: #0a0f1a;
+  --primary: #a855f7; /* purple-500 as primary highlight in dark */
+  --primary-foreground: #ffffff;
   --secondary: #111827;
   --secondary-foreground: #f8fafc;
   --muted: #111827;
   --muted-foreground: #cbd5e1;
-  --accent: #0a2540; /* deep blue accents */
-  --accent-foreground: #f8fafc;
+  --accent: #7c3aed; /* purple-600 accents */
+  --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --border: rgba(255, 255, 255, 0.08);
   --input: rgba(255, 255, 255, 0.12);
@@ -132,16 +132,15 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Animated gradient blobs for hero background */
+/* Subtle gradient blobs for hero background */
 @keyframes blobMove {
-  0% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(40px, -60px) scale(1.1); }
-  66% { transform: translate(-30px, 30px) scale(0.95); }
-  100% { transform: translate(0, 0) scale(1); }
+  0% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.05); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 0.3; }
 }
 
 .animate-blob {
-  animation: blobMove 16s ease-in-out infinite;
+  animation: blobMove 20s ease-in-out infinite;
 }
 
 .animation-delay-2000 {
@@ -150,4 +149,8 @@ html {
 
 .animation-delay-4000 {
   animation-delay: 4s;
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
 }

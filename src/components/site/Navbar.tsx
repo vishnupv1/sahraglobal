@@ -27,14 +27,13 @@ export function Navbar() {
   };
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
-    onScroll();
+    const onScroll = () => setScrolled(window.scrollY > 120);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
-    <header className={`sticky top-0 z-50 w-full transition-all ${scrolled ? "bg-white/80 backdrop-blur border-b" : "bg-transparent"}`}>
+    <header className={`sticky top-0 z-50 w-full transition-all ${scrolled ? "bg-white/75 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b" : "bg-transparent"}`}>
       <div className="mx-auto flex h-16 w-full items-center justify-between px-3 sm:px-4 lg:px-6">
         <Link href="/" className="flex items-center gap-2 font-semibold text-primary">
           <span className="inline-block h-3 w-3 rounded-sm bg-accent" />
