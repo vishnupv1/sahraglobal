@@ -36,8 +36,7 @@ export default function RootLayout({
           <div className="absolute -top-28 -left-16 h-96 w-96 rounded-full bg-gradient-to-br from-purple-400/60 to-purple-600/40 blur-xl animate-blob" />
           <div className="absolute top-6 right-0 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-purple-500/50 via-purple-300/40 to-purple-400/45 blur-xl animate-blob animation-delay-2000" />
         </div> */}
-        {/* Top fade overlay to keep navbar area visually clean */}
-        <div aria-hidden className="fixed top-0 inset-x-0 h-20 z-10 bg-gradient-to-b from-white to-transparent" />
+        {/* Removed top fade overlay to eliminate visual separation between navbar and content */}
         <Navbar />
         <main className="flex-1 pb-16 sm:pb-20">{children}</main>
         <Footer />

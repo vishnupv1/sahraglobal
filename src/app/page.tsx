@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="space-y-8 sm:space-y-12 md:space-y-16 pb-0">
       {/* Hero (centered) */}
-      <section className="relative overflow-visible bg-gradient-to-b from-purple-50/30 via-purple-100/20 to-purple-200/30">
+      <section className="relative overflow-visible bg-gradient-to-b from-purple-50/30 via-purple-100/20 to-purple-200/30 -mt-14 sm:-mt-16 pt-14 sm:pt-16">
         {/* Page-scoped animated blobs (visible only on home) */}
         <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute -top-28 -left3-30 h-96 w-96 rounded-full bg-gradient-to-br from-purple-400/60 to-purple-600/40 blur-xl " />
