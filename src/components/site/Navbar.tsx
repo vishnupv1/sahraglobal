@@ -42,7 +42,7 @@ export function Navbar() {
             alt="Starway Link"
             // width={1400}
             // height={140}
-            className="w-60"
+            className="w-40 h-auto"
               // priority={true}
           />
           {/* <span className="text-sm sm:text-base">Starway Link</span> */}
