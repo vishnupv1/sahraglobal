@@ -409,12 +409,12 @@ export default function Home() {
               Join 2,000+ companies already growing with us
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 opacity-60">
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">goipsum</div>
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">IPSUM</div>
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">coo</div>
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Logoipsum</div>
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Logoipsum</div>
-              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">LOOO</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner One</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Two</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Three</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Four</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Five</div>
+              <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Six</div>
             </div>
               </motion.div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
@@ -36,8 +37,15 @@ export function Navbar() {
     <header className={`sticky top-0 z-50 w-full transition-all ${scrolled ? "bg-white/75 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b" : "bg-transparent"}`}>
       <div className="mx-auto flex h-14 sm:h-16 w-full items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-1.5 sm:gap-2 font-semibold text-primary">
-          <span className="inline-block h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-sm bg-accent" />
-          <span className="text-sm sm:text-base">Starway Link</span>
+          <img
+            src="/starway.png"
+            alt="Starway Link"
+            // width={1400}
+            // height={140}
+            className="w-60"
+              // priority={true}
+          />
+          {/* <span className="text-sm sm:text-base">Starway Link</span> */}
         </Link>
 
         <nav className="hidden md:block">

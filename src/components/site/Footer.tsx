@@ -13,9 +13,9 @@
                 </div>
                 <span className="text-xl font-semibold text-gray-900">Starway Link</span>
               </div>
-              <p className="mb-6 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet consectetur. Vitae morbi bibendum enim arcu
-              </p>
+            <p className="mb-6 text-sm text-gray-600">
+              We help businesses scale with modern web, marketing, and operations solutions.
+            </p>
             <div className="flex gap-3">
               {/* <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-900 text-white hover:bg-gray-700">
                 <span className="text-sm font-bold">f</span>
