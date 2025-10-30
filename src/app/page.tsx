@@ -405,7 +405,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">
+            {/* <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-6 sm:mb-8">
               Join 2,000+ companies already growing with us
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 opacity-60">
@@ -415,7 +415,7 @@ export default function Home() {
               <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Four</div>
               <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Five</div>
               <div className="text-gray-400 font-medium text-sm sm:text-base md:text-lg">Partner Six</div>
-            </div>
+            </div> */}
               </motion.div>
         </div>
       </section>
