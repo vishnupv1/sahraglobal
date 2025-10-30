@@ -48,32 +48,37 @@ export function Navbar() {
           {/* <span className="text-sm sm:text-base">Starway Link</span> */}
         </Link>
 
-        <nav className="hidden md:block">
-          <NavigationMenu>
-            <NavigationMenuList>
-              {navItems.map((item) => (
-                <NavigationMenuItem key={item.href}>
-                  <Link
-                    href={item.href}
-                    aria-current={isActive(item.href) ? "page" : undefined}
-                    className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                      isActive(item.href)
-                        ? "text-primary underline underline-offset-4"
-                        : "text-foreground/80 hover:text-foreground"
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                </NavigationMenuItem>
-              ))}
-              <NavigationMenuItem>
-                <Button asChild className="ml-2">
-                  <Link href="/contact">Get a Free Consultation</Link>
-                </Button>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
-        </nav>
+        {/* Centered desktop navigation (links only) */}
+        <div className="hidden md:flex flex-1 justify-center">
+          <nav>
+            <NavigationMenu>
+              <NavigationMenuList>
+                {navItems.map((item) => (
+                  <NavigationMenuItem key={item.href}>
+                    <Link
+                      href={item.href}
+                      aria-current={isActive(item.href) ? "page" : undefined}
+                      className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                        isActive(item.href)
+                          ? "text-primary underline underline-offset-4"
+                          : "text-foreground/80 hover:text-foreground"
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  </NavigationMenuItem>
+                ))}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </nav>
+        </div>
+
+        {/* Right-aligned desktop CTA */}
+        <div className="hidden md:block">
+          <Button asChild>
+            <Link href="/contact">Get a Free Consultation</Link>
+          </Button>
+        </div>
 
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
