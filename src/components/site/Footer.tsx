@@ -11,7 +11,7 @@
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-purple-600">
                   <span className="text-lg font-bold text-white">V</span>
                 </div>
-                <span className="text-xl font-semibold text-gray-900">Starway Link</span>
+                <span className="text-xl font-semibold text-gray-900">Starwaylink Services LLC</span>
               </div>
             <p className="mb-6 text-sm text-gray-600">
               We help businesses scale with modern web, marketing, and operations solutions.
@@ -92,11 +92,11 @@
           {/* Watermark and Credits Section */}
           <div className="relative mt-16 pt-8">
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-6xl font-bold text-gray-100 select-none">Starway Link</span>
+              <span className="text-6xl font-bold text-gray-100 select-none">Starwaylink Services LLC</span>
             </div>
             <div className="relative text-center">
               <p className="text-sm text-gray-500">
-                Designed by <a href="#" className="text-blue-600 hover:underline">Starway Link</a>
+                Designed by <a href="#" className="text-blue-600 hover:underline">Starwaylink Services LLC</a>
               </p>
             </div>
           </div>

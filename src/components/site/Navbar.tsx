@@ -38,11 +38,11 @@ export function Navbar() {
       <div className="mx-auto flex h-14 sm:h-16 w-full items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-1.5 sm:gap-2 font-semibold text-primary">
           <img
-            src="/starway.png"
-            alt="Starway Link"
+            src="/starwaylogo.png"
+            alt="Starwaylink Services LLC"
             // width={1400}
             // height={140}
-            className="w-40 h-auto"
+            className="w-32 h-auto"
               // priority={true}
           />
           {/* <span className="text-sm sm:text-base">Starway Link</span> */}

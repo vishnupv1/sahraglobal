@@ -39,7 +39,7 @@ export default function Home() {
                 className="hero-tag-image h-4 w-4 sm:h-5 sm:w-5"
               />
               <div className="hero-tag-text text-xs sm:text-sm font-medium text-purple-700">
-                <span className="smart-ai-text font-semibold text-purple-800">4800+</span>
+                <span className="smart-ai-text font-semibold text-purple-800"></span>
                 <span className="mx-0.5 sm:mx-1">5 Stars Reviews</span>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Home() {
                             <span className="text-white font-bold text-sm sm:text-lg">SL</span>
                           </div>
                           <div>
-                            <h3 className="text-lg sm:text-xl font-semibold text-gray-900">Starway Link Dashboard</h3>
+                            <h3 className="text-lg sm:text-xl font-semibold text-gray-900">Starwaylink Services Dashboard</h3>
                             <p className="text-sm sm:text-base text-gray-600">UAE Business Services Overview</p>
                           </div>
                         </div>
@@ -181,41 +181,41 @@ export default function Home() {
                           <div className="flex items-center justify-between">
                             <div>
                               <p className="text-xs sm:text-sm text-gray-600">Web Projects</p>
-                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">47</p>
+                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">••</p>
                             </div>
                             <Globe className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-blue-600" />
                           </div>
-                          <p className="text-xs sm:text-sm text-green-600 mt-1">+12.5%</p>
+                          <p className="text-xs sm:text-sm text-green-600 mt-1">•••%</p>
                         </div>
                         <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                           <div className="flex items-center justify-between">
                             <div>
                               <p className="text-xs sm:text-sm text-gray-600">Marketing ROI</p>
-                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">340%</p>
+                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">•••%</p>
                             </div>
                             <LineChart className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-purple-600" />
                           </div>
-                          <p className="text-xs sm:text-sm text-green-600 mt-1">+23.1%</p>
+                          <p className="text-xs sm:text-sm text-green-600 mt-1">•••%</p>
                         </div>
                         <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                           <div className="flex items-center justify-between">
                             <div>
                               <p className="text-xs sm:text-sm text-gray-600">Tax Filings</p>
-                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">156</p>
+                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">•••</p>
                             </div>
                             <FileSpreadsheet className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-orange-600" />
                           </div>
-                          <p className="text-xs sm:text-sm text-green-600 mt-1">+8.2%</p>
+                          <p className="text-xs sm:text-sm text-green-600 mt-1">•••%</p>
                         </div>
                         <div className="bg-gradient-to-br from-green-50 to-green-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                           <div className="flex items-center justify-between">
                             <div>
                               <p className="text-xs sm:text-sm text-gray-600">Logistics Orders</p>
-                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">2,318</p>
+                              <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900">••••</p>
                             </div>
                             <Ship className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-green-600" />
                           </div>
-                          <p className="text-xs sm:text-sm text-green-600 mt-1">+15.3%</p>
+                          <p className="text-xs sm:text-sm text-green-600 mt-1">•••%</p>
                         </div>
                       </div>
 
@@ -223,8 +223,8 @@ export default function Home() {
                         <div className="flex items-center justify-between">
                           <div>
                             <p className="text-purple-100 text-xs sm:text-sm">Monthly Revenue</p>
-                            <p className="text-2xl sm:text-3xl font-bold">AED 89.2K</p>
-                            <p className="text-purple-200 text-xs sm:text-sm">32% Growth this quarter</p>
+                            <p className="text-2xl sm:text-3xl font-bold">AED ••••</p>
+                            <p className="text-purple-200 text-xs sm:text-sm">••% Growth this quarter</p>
                           </div>
                           <div className="h-12 w-12 sm:h-16 sm:w-16 bg-white/20 rounded-lg flex items-center justify-center">
                             <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
@@ -243,22 +243,22 @@ export default function Home() {
                           <div className="space-y-1.5 sm:space-y-2">
                             <div className="flex items-center gap-2">
                               <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-purple-500"></div>
-                              <span className="text-xs sm:text-sm text-gray-600">Web Development • 47</span>
+                              <span className="text-xs sm:text-sm text-gray-600">Web Development • ••</span>
                             </div>
                             <div className="flex items-center gap-2">
                               <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-blue-500"></div>
-                              <span className="text-xs sm:text-sm text-gray-600">Digital Marketing • 23</span>
+                              <span className="text-xs sm:text-sm text-gray-600">Digital Marketing • ••</span>
                             </div>
                             <div className="flex items-center gap-2">
                               <div className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-orange-500"></div>
-                              <span className="text-xs sm:text-sm text-gray-600">Tax & Finance • 156</span>
+                              <span className="text-xs sm:text-sm text-gray-600">Tax & Finance • •••</span>
                             </div>
                           </div>
                         </div>
                         <div className="hidden sm:block bg-white p-3 sm:p-4 rounded-lg border">
                           <div className="flex items-center justify-between mb-3 sm:mb-4">
                             <h5 className="font-medium text-gray-900 text-sm sm:text-base">Active Projects</h5>
-                            <span className="text-2xl sm:text-3xl font-bold text-purple-600">12</span>
+                            <span className="text-2xl sm:text-3xl font-bold text-purple-600">••</span>
                           </div>
                           <div className="h-24 sm:h-32 bg-gradient-to-r from-purple-100 to-blue-100 rounded-lg flex items-center justify-center">
                             <div className="text-center">
@@ -281,7 +281,7 @@ export default function Home() {
                               </div>
                               <div>
                                 <p className="text-xs sm:text-sm text-gray-900">E-commerce site launched</p>
-                                <p className="text-xs text-gray-500">2 hours ago</p>
+                                <p className="text-xs text-gray-500">• hours ago</p>
                               </div>
                             </div>
                             <div className="flex items-center gap-2 sm:gap-3">
@@ -290,7 +290,7 @@ export default function Home() {
                               </div>
                               <div>
                                 <p className="text-xs sm:text-sm text-gray-900">Logistics order completed</p>
-                                <p className="text-xs text-gray-500">4 hours ago</p>
+                                <p className="text-xs text-gray-500">• hours ago</p>
                               </div>
                             </div>
                             <div className="flex items-center gap-2 sm:gap-3">
@@ -299,7 +299,7 @@ export default function Home() {
                               </div>
                               <div>
                                 <p className="text-xs sm:text-sm text-gray-900">Tax filing submitted</p>
-                                <p className="text-xs text-gray-500">6 hours ago</p>
+                                <p className="text-xs text-gray-500">• hours ago</p>
                               </div>
                             </div>
                           </div>
@@ -307,8 +307,8 @@ export default function Home() {
                             <div className="flex items-center justify-between">
                               <div>
                                 <p className="text-xs sm:text-sm text-gray-600">Client Satisfaction</p>
-                                <p className="text-base sm:text-lg font-bold text-gray-900">98%</p>
-                                <p className="text-xs text-gray-500">Based on 150+ reviews</p>
+                                <p className="text-base sm:text-lg font-bold text-gray-900">••%</p>
+                                <p className="text-xs text-gray-500">Based on •••+ reviews</p>
                               </div>
                               <div className="h-6 w-6 sm:h-8 sm:w-8 bg-purple-500 rounded flex items-center justify-center">
                                 <Award className="h-3 w-3 sm:h-4 sm:w-4 text-white" />

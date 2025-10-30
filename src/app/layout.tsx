@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Starway Link — UAE Business Services",
-    template: "%s — Starway Link",
+    default: "Starwaylink Services LLC — UAE Business Services",
+    template: "%s — Starwaylink Services LLC",
   },
   description:
     "UAE-based company offering web development, digital marketing, tax & finance, logistics, data entry, and visa assistance.",
