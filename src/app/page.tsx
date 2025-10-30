@@ -109,7 +109,7 @@ export default function Home() {
                 >
                   <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center border border-white/20">
                     <Image
-                      src="/starwaylogo.png"
+                      src="/nobglogo.png"
                       alt="Starwaylink"
                       width={128}
                       height={128}

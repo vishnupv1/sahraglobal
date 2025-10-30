@@ -10,7 +10,7 @@
             <div>
               <div className="mb-4 flex items-center gap-3">
                  {/* <div className="flex h-8 w-8 items-center justify-center rounded-full overflow-hidden"> */}
-                   <Image src="/starwaylogo.png" alt="Starwaylink logo" className="h-16 w-16 object-contain" width={320} height={320} />
+                   <Image src="/nobglogo.png" alt="Starwaylink logo" className="h-16 w-16 object-contain" width={320} height={320} />
                  {/* </div> */}
                 <span className="text-xl font-semibold text-gray-900">Starwaylink Services LLC</span>
               </div>
