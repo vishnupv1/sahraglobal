@@ -186,7 +186,6 @@ export default function Home() {
                         <Globe className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-600" />
                       </div>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">
-                        •••%
                       </p>
                     </div>
                     <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
@@ -202,7 +201,6 @@ export default function Home() {
                         <LineChart className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">
-                        •••%
                       </p>
                     </div>
                     <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
@@ -218,7 +216,6 @@ export default function Home() {
                         <FileSpreadsheet className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">
-                        •••%
                       </p>
                     </div>
                     <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
@@ -234,7 +231,6 @@ export default function Home() {
                         <Ship className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">
-                        •••%
                       </p>
                     </div>
                   </div>
