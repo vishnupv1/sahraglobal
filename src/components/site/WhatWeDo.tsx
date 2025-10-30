@@ -15,26 +15,83 @@ export default function WhatWeDo() {
         <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "Build trust with feedback and listening",
+              title: "Accounting, Bookkeeping, Auditing & Tax",
               bullets: [
-                "Create a workplace where employees feel valued and heard",
-                "Increase loyalty and engagement by improving continuously",
+                "Bookkeeping and transaction recording",
+                "Financial statement preparation and audit",
+                "Tax return preparation",
+                "Tax advisory and representation",
+                "Accounts examination and certification",
+                "Compliance and reporting support",
               ],
             },
             {
-              title: "Identify key drivers of engagement and satisfaction",
+              title: "Computer Programming Activities",
               bullets: [
-                "Discover what motivates employees with comprehensive data",
-                "Address root causes of disengagement to improve morale",
+                "Systems and application development",
+                "Web and database design",
+                "Software customization and integration",
+                "Zoho implementation",
+                "Social/app development and management",
+                "Cybersecurity architecture and systems design",
               ],
             },
             {
-              title: "Ensure cultural alignment with organizational goals",
+              title: "Computer Consultancy & Facilities Management",
               bullets: [
-                "Assess alignment between perceptions and company values",
-                "Build teamwork and success through stronger alignment",
+                "Social media marketing",
+                "Digital content services",
+                "IT strategy and systems planning",
+                "Concept and design consultancy",
+                "On-site IT operations management",
+                "Integrated hardware–software–network design",
               ],
             },
+            // {
+            //   title: "Other IT & Computer Services",
+            //   bullets: [
+            //     "Disaster recovery and business continuity",
+            //     "PC and software installation",
+            //     "IT security management and consulting",
+            //     "Security systems and cyber risk advisory",
+            //     "AI and innovation research",
+            //     "Technology project management",
+            //   ],
+            // },
+            {
+              title: "Conventions, Conferences & Exhibitions",
+              bullets: [
+                "Event strategy and planning",
+                "Trade show and exhibition organizing",
+                "Conference management",
+                "Vendor and venue coordination",
+                "On-site staffing and operations",
+                "End-to-end event execution",
+              ],
+            },
+            {
+              title: "Management Consultancy Activities",
+              bullets: [
+                "Strategy and management advisory",
+                "Marketing, PR and communications",
+                "Process and cost/accounting design",
+                "Project and program management",
+                "Sector consulting: logistics, hospitality, health",
+                "Procurement and quality/standards advisory",
+              ],
+            },
+            {
+              title: "Business & Applications Follow‑Up Services",
+              bullets: [
+                "Document preparation and formatting",
+                "Transcription and secretarial support",
+                "Editing and proofreading",
+                "Typing, word processing and DTP",
+                "Mailbox and mailing services",
+                "Copying, duplicating and blueprinting",
+              ],
+            },
+            
           ].map((b, i) => (
             <motion.div key={b.title} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.4, delay: i * 0.05 }}>
               <Card className="h-full border bg-white shadow-sm transition hover:shadow-md">
