@@ -183,9 +183,9 @@ export default function Home() {
                             ••
                           </p>
                         </div>
-                        <Globe className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-blue-600" />
+                        <Globe className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-600" />
                       </div>
-                      <p className="text-xs sm:text-sm text-blue-600 mt-1">
+                      <p className="text-xs sm:text-sm text-gray-500 mt-1">
                         •••%
                       </p>
                     </div>
@@ -199,9 +199,9 @@ export default function Home() {
                             •••%
                           </p>
                         </div>
-                        <LineChart className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-blue-600" />
+                        <LineChart className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
-                      <p className="text-xs sm:text-sm text-blue-600 mt-1">
+                      <p className="text-xs sm:text-sm text-gray-500 mt-1">
                         •••%
                       </p>
                     </div>
@@ -215,9 +215,9 @@ export default function Home() {
                             •••
                           </p>
                         </div>
-                        <FileSpreadsheet className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-blue-600" />
+                        <FileSpreadsheet className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
-                      <p className="text-xs sm:text-sm text-blue-600 mt-1">
+                      <p className="text-xs sm:text-sm text-gray-500 mt-1">
                         •••%
                       </p>
                     </div>
@@ -231,9 +231,9 @@ export default function Home() {
                             ••••
                           </p>
                         </div>
-                        <Ship className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-blue-600" />
+                        <Ship className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-gray-500" />
                       </div>
-                      <p className="text-xs sm:text-sm text-blue-600 mt-1">
+                      <p className="text-xs sm:text-sm text-gray-500 mt-1">
                         •••%
                       </p>
                     </div>
