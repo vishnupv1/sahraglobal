@@ -76,7 +76,7 @@ export default function Home() {
             <Link href="/contact">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-300 to-blue-500 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg"
+                className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg"
               >
                 Get a Free Consultation
               </Button>
@@ -105,7 +105,7 @@ export default function Home() {
                   }}
                   className="p-1.5 sm:p-2 bg-white/10 backdrop-blur-md rounded-full border border-white/30 shadow-xl"
                 >
-                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center border border-white/20">
+                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center border border-white/20">
                     <Image
                       src="/nobglogo.png"
                       alt="Starwaylink"
@@ -134,7 +134,7 @@ export default function Home() {
                   }}
                   className="p-1.5 sm:p-2 bg-white/10 backdrop-blur-md rounded-full border border-white/30 shadow-xl"
                 >
-                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-200 to-blue-500 flex items-center justify-center border border-white/20">
+                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-100 to-blue-300 flex items-center justify-center border border-white/20">
                     <Award className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                   </div>
                 </motion.div>
@@ -163,7 +163,7 @@ export default function Home() {
                         <Search className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400" />
                         <span className="relative inline-block">
                           <Bell className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400" />
-                          <span className="absolute -top-1 -right-1 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-blue-500" />
+                          <span className="absolute -top-1 -right-1 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-blue-400" />
                         </span>
                       </div>
                       <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-full bg-blue-500 flex items-center justify-center">
@@ -173,7 +173,7 @@ export default function Home() {
                   </div>
 
                   <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-6 sm:mb-8">
-                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
+                    <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="text-xs sm:text-sm text-gray-600">
@@ -189,7 +189,7 @@ export default function Home() {
                         •••%
                       </p>
                     </div>
-                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
+                    <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="text-xs sm:text-sm text-gray-600">
@@ -205,7 +205,7 @@ export default function Home() {
                         •••%
                       </p>
                     </div>
-                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
+                    <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="text-xs sm:text-sm text-gray-600">
@@ -221,7 +221,7 @@ export default function Home() {
                         •••%
                       </p>
                     </div>
-                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
+                    <div className="bg-white border border-blue-100 p-3 sm:p-4 rounded-lg sm:rounded-xl">
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="text-xs sm:text-sm text-gray-600">
@@ -239,21 +239,21 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-r from-blue-400 to-blue-700 p-4 sm:p-6 rounded-lg sm:rounded-xl text-white mb-6 sm:mb-8">
+                  <div className="bg-white border border-gray-200 p-4 sm:p-6 rounded-lg sm:rounded-xl text-gray-900 mb-6 sm:mb-8">
                     <div className="flex items-center justify-between">
                       <div>
-                        <p className="text-blue-100 text-xs sm:text-sm">
+                        <p className="text-gray-600 text-xs sm:text-sm">
                           Monthly Revenue
                         </p>
                         <p className="text-2xl sm:text-3xl font-bold">
                           AED ••••
                         </p>
-                        <p className="text-blue-200 text-xs sm:text-sm">
+                        <p className="text-gray-500 text-xs sm:text-sm">
                           ••% Growth this quarter
                         </p>
                       </div>
-                      <div className="h-12 w-12 sm:h-16 sm:w-16 bg-white/20 rounded-lg flex items-center justify-center">
-                        <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
+                      <div className="h-12 w-12 sm:h-16 sm:w-16 bg-blue-50 rounded-lg flex items-center justify-center">
+                        <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600" />
                       </div>
                     </div>
                   </div>
@@ -298,7 +298,7 @@ export default function Home() {
                           ••
                         </span>
                       </div>
-                      <div className="h-24 sm:h-32 bg-gradient-to-r from-blue-100 to-blue-200 rounded-lg flex items-center justify-center">
+                      <div className="h-24 sm:h-32 bg-blue-50 rounded-lg flex items-center justify-center">
                         <div className="text-center">
                           <div className="h-12 w-12 sm:h-16 sm:w-16 bg-blue-500 rounded-lg mx-auto mb-1 sm:mb-2 flex items-center justify-center">
                             <CheckCircle2 className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
