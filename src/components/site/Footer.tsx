@@ -3,9 +3,9 @@
 
   export default function Footer() {
     return (
-      <footer className="bg-white">
-        <div className="mx-auto w-full px-3 py-12 sm:px-4 lg:px-6">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+    <footer className="bg-white">
+      <div className="mx-auto w-full px-3 py-12 sm:px-4 lg:px-6">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* Branding Section */}
             <div>
               <div className="mb-4 flex items-center gap-3">
@@ -37,28 +37,7 @@
               </div>
             </div>
 
-            {/* Menu Section */}
-            <div>
-              <h4 className="mb-4 text-sm font-semibold text-gray-900">Menu</h4>
-              <ul className="space-y-3 text-sm">
-                <li><Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link></li>
-                <li><Link href="/services" className="text-gray-600 hover:text-gray-900">Features</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Pricing</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Integration</Link></li>
-                <li><Link href="/contact" className="text-gray-600 hover:text-gray-900">Contact Us</Link></li>
-              </ul>
-            </div>
-
-            {/* Template Section */}
-            <div>
-              <h4 className="mb-4 text-sm font-semibold text-gray-900">Template</h4>
-              <ul className="space-y-3 text-sm">
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Style Guide</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">License</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">Changelog</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-gray-900">404</Link></li>
-              </ul>
-            </div>
+          
 
             {/* Contact Section */}
             <div>
@@ -94,7 +73,7 @@
           {/* Watermark and Credits Section */}
           <div className="relative mt-16 pt-8">
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-6xl font-bold text-gray-100 select-none">Starwaylink Services LLC</span>
+              <span className="text-6xl text-center  font-bold text-gray-100 select-none">Starwaylink Services LLC</span>
             </div>
             <div className="relative text-center">
               <p className="text-sm text-gray-500">

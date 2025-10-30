@@ -154,3 +154,12 @@ html {
 .bg-gradient-radial {
   background: radial-gradient(circle, var(--tw-gradient-stops));
 }
+
+/* Slow rotation for globe */
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.globe-spin {
+  animation: spinSlow 30s linear infinite;
+}

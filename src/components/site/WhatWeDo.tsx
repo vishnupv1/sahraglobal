@@ -8,10 +8,7 @@ export default function WhatWeDo() {
   return (
     <section>
       <div className="mx-auto w-full px-4 sm:px-6 lg:px-8">
-        <div className="mb-6 sm:mb-8 text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">What we do</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg text-muted-foreground lg:text-xl">Unlock real results for your organization.</p>
-        </div>
+        
         <div className="grid gap-4 sm:gap-5 md:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {

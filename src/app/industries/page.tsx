@@ -16,7 +16,7 @@ const industries = [
 export default function IndustriesPage() {
   return (
     <div className="mx-auto w-full px-3 pt-14 pb-0 sm:px-4 lg:px-6">
-      <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl font-bold tracking-tight text-primary sm:text-5xl 2xl:text-6xl">
+      <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl font-bold tracking-tight text-black text-center sm:text-5xl 2xl:text-6xl">
         Empowering diverse industries across the UAE with tailored expertise
       </motion.h1>
       <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="mt-4 max-w-3xl text-lg text-muted-foreground 2xl:text-xl">

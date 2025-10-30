@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/site/Navbar";
 import Footer from "../components/site/Footer";
+import GlobalBackground from "../components/site/GlobalBackground";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,14 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh flex flex-col relative`}>
-        {/* Global background animated blobs (disabled globally; scoped per-page) */}
-        {/* <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-          <div className="absolute -top-28 -left-16 h-96 w-96 rounded-full bg-gradient-to-br from-blue-400/60 to-blue-600/40 blur-xl animate-blob" />
-          <div className="absolute top-6 right-0 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-blue-500/50 via-blue-300/40 to-blue-400/45 blur-xl animate-blob animation-delay-2000" />
-        </div> */}
+        <GlobalBackground />
         {/* Removed top fade overlay to eliminate visual separation between navbar and content */}
         <Navbar />
-        <main className="flex-1 pb-16 sm:pb-20">{children}</main>
+        <main className="flex-1 ">{children}</main>
         <Footer />
       </body>
     </html>
