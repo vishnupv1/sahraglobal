@@ -20,7 +20,7 @@ export default function AboutPage() {
     <div className="min-h-dvh space-y-16 md:space-y-24 pb-0">
       {/* Hero Section (mirrors home feel) */}
       <section className="relative overflow-visible -mt-14 sm:-mt-16 pt-14 sm:pt-16">
-        <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-3 py-12 text-center sm:px-4 sm:py-16 lg:px-6 lg:py-20 overflow-visible">
+            <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-3 py-12 sm:px-4 sm:py-16 lg:px-6 lg:py-20 overflow-visible">
           {/* Trust Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -118,13 +118,13 @@ export default function AboutPage() {
                       confidence.
                     </p>
                     <div className="mt-4 grid grid-cols-3 gap-2">
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Compliance
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Security
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Scale
                       </div>
                     </div>
@@ -236,13 +236,13 @@ export default function AboutPage() {
                       </li>
                     </ul>
                     <div className="mt-4 grid grid-cols-3 gap-2">
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         KPIs
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Compliance
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Security
                       </div>
                     </div>
@@ -334,13 +334,13 @@ export default function AboutPage() {
                       </li>
                     </ul>
                     <div className="mt-4 grid grid-cols-3 gap-2">
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Reliability
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         SLAs
                       </div>
-                      <div className="rounded-md bg-white/60 px-2 py-1 text-center text-xs text-gray-700">
+                      <div className="rounded-md bg-white/60 px-2 py-1 text-left text-xs text-gray-700">
                         Support
                       </div>
                     </div>
