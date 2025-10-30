@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-dvh space-y-16 md:space-y-24 pb-0">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-white to-purple-50/30">
+      <section className="relative overflow-hidden bg-gradient-to-b from-white to-blue-50/30">
         <div className="mx-auto flex min-h-[60vh] w-full max-w-4xl flex-col items-center justify-center px-3 py-16 text-center sm:px-4 lg:px-6 lg:py-20">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Flag className="h-5 w-5 text-purple-600" />
+                  <Flag className="h-5 w-5 text-blue-600" />
                   Vision & Mission
                 </CardTitle>
               </CardHeader>
@@ -52,22 +52,22 @@ export default function AboutPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Users2 className="h-5 w-5 text-purple-600" />
+                  <Users2 className="h-5 w-5 text-blue-600" />
                   Leadership
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Managing Director — 12+ years building and scaling GCC operations</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Head of Technology — Full-stack systems architect and delivery lead</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Head of Finance — Tax, VAT, and compliance specialist for the UAE</span>
                   </li>
                 </ul>
@@ -81,22 +81,22 @@ export default function AboutPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Target className="h-5 w-5 text-purple-600" />
+                  <Target className="h-5 w-5 text-blue-600" />
                   Why clients choose us
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Outcome-first delivery with clear, measurable KPIs</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Local compliance and regulatory expertise across the UAE</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Modern engineering practices with a strong security posture</span>
                   </li>
                 </ul>
@@ -108,22 +108,22 @@ export default function AboutPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Workflow className="h-5 w-5 text-purple-600" />
+                  <Workflow className="h-5 w-5 text-blue-600" />
                   How we work
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Discovery and alignment on goals and constraints</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Lean roadmaps with rapid, iterative releases</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Transparent communication, reporting, and governance</span>
                   </li>
                 </ul>
@@ -135,22 +135,22 @@ export default function AboutPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <ShieldCheck className="h-5 w-5 text-purple-600" />
+                  <ShieldCheck className="h-5 w-5 text-blue-600" />
                   Our commitment
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Security, reliability, and performance as non‑negotiables</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>On-time delivery with clear ownership and SLAs</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Long-term partnership, enablement, and support</span>
                   </li>
                 </ul>

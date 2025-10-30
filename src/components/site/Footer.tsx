@@ -1,4 +1,5 @@
   import Link from "next/link";
+  import Image from "next/image";
 
   export default function Footer() {
     return (
@@ -8,9 +9,9 @@
             {/* Branding Section */}
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-purple-600">
-                  <span className="text-lg font-bold text-white">V</span>
-                </div>
+                 {/* <div className="flex h-8 w-8 items-center justify-center rounded-full overflow-hidden"> */}
+                   <Image src="/starwaylogo.png" alt="Starwaylink logo" className="h-16 w-16 object-contain" width={320} height={320} />
+                 {/* </div> */}
                 <span className="text-xl font-semibold text-gray-900">Starwaylink Services LLC</span>
               </div>
             <p className="mb-6 text-sm text-gray-600">
@@ -67,13 +68,14 @@
                   <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                   </svg>
-                  +1 (800) 123-4567
+                  +971 5090 70441
                 </li>
               <li className="flex items-center gap-2">
                   <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                   </svg>
                 admin@starwaylinkservices.com
+                starwaylinkservices@gmail.com
                 </li>
               <li className="flex items-center gap-2">
                   <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">

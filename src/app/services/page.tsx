@@ -17,7 +17,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-dvh space-y-16 md:space-y-24 pb-0">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-white to-purple-50/30">
+      <section className="relative overflow-hidden bg-gradient-to-b from-white to-blue-50/30">
         <div className="mx-auto w-full px-3 sm:px-4 lg:px-6">
         {/* Services Integration Style */}
         <div className="flex flex-col items-center justify-center py-16">
@@ -52,7 +52,7 @@ export default function ServicesPage() {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="absolute z-10 w-24 h-24 bg-gradient-to-br from-purple-600 to-purple-700 rounded-full flex items-center justify-center shadow-2xl"
+              className="absolute z-10 w-24 h-24 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center shadow-2xl"
             >
               <CheckCircle2 className="h-12 w-12 text-white" />
             </motion.div>
@@ -70,13 +70,13 @@ export default function ServicesPage() {
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
-                  className="absolute w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-gray-100 hover:border-purple-200 transition-colors"
+                  className="absolute w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-gray-100 hover:border-blue-200 transition-colors"
                   style={{
                     left: `calc(50% + ${x}px - 32px)`,
                     top: `calc(50% + ${y}px - 32px)`,
                   }}
                 >
-                  <service.Icon className="h-8 w-8 text-purple-600" />
+                  <service.Icon className="h-8 w-8 text-blue-600" />
                 </motion.div>
               );
             })}
@@ -116,7 +116,7 @@ export default function ServicesPage() {
                 className="text-center"
               >
                 <div className="flex items-center justify-center gap-2 mb-2">
-                  <service.Icon className="h-5 w-5 text-purple-600" />
+                  <service.Icon className="h-5 w-5 text-blue-600" />
                   <span className="font-medium text-gray-900">{service.title}</span>
                 </div>
               </motion.div>
@@ -129,22 +129,22 @@ export default function ServicesPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Award className="h-5 w-5 text-purple-600" />
+                  <Award className="h-5 w-5 text-blue-600" />
                   What you can expect
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Clear KPIs, timelines, and ownership</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Compliance-first delivery for the UAE market</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Secure, scalable, and maintainable solutions</span>
                   </li>
                 </ul>
@@ -156,22 +156,22 @@ export default function ServicesPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Clock className="h-5 w-5 text-purple-600" />
+                  <Clock className="h-5 w-5 text-blue-600" />
                   Engagement model
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Discovery and proposal</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Phased delivery with regular demos</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Handover, training, and support</span>
                   </li>
                 </ul>
@@ -183,7 +183,7 @@ export default function ServicesPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Users className="h-5 w-5 text-purple-600" />
+                  <Users className="h-5 w-5 text-blue-600" />
                   Industries we support
                 </CardTitle>
               </CardHeader>
@@ -199,26 +199,26 @@ export default function ServicesPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Globe className="h-5 w-5 text-purple-600" />
+                  <Globe className="h-5 w-5 text-blue-600" />
                   Technology stack
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Next.js, React, TypeScript for modern web apps</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Cloud infrastructure (AWS, Vercel, Azure)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Database design and optimization</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Security best practices and compliance</span>
                   </li>
                 </ul>
@@ -230,26 +230,26 @@ export default function ServicesPage() {
             <Card className="group h-full border bg-white shadow-sm transition hover:shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Award className="h-5 w-5 text-purple-600" />
+                  <Award className="h-5 w-5 text-blue-600" />
                   Why choose us
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>UAE market expertise and local compliance</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Transparent pricing and clear deliverables</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Ongoing support and maintenance</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-purple-600" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                     <span>Proven track record with UAE businesses</span>
                   </li>
                 </ul>

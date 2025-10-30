@@ -47,20 +47,20 @@
   /* Radii */
   --radius: 0.625rem;
 
-  /* Purple-inspired palette: modern purple, clean neutrals */
+  /* Purple-inspired palette: modern blue, clean neutrals */
   --background: #f8fafc; /* neutral-50 */
   --foreground: #0a0f1a; /* near-black for high contrast */
   --card: #ffffff;
   --card-foreground: #0a0f1a;
   --popover: #ffffff;
   --popover-foreground: #0a0f1a;
-  --primary: #7c3aed; /* purple-600 */
+  --primary: #60a5fa; /* blue-400 */
   --primary-foreground: #ffffff;
   --secondary: #f3f4f6; /* soft neutral */
   --secondary-foreground: #374151;
   --muted: #f3f4f6;
   --muted-foreground: #6b7280;
-  --accent: #a855f7; /* purple-500 */
+  --accent: #1d4ed8; /* blue-700 */
   --accent-foreground: #ffffff;
   --destructive: #dc2626;
   --border: #e5e7eb;
@@ -92,13 +92,13 @@
   --card-foreground: #f8fafc;
   --popover: #0f172a;
   --popover-foreground: #f8fafc;
-  --primary: #a855f7; /* purple-500 as primary highlight in dark */
+  --primary: #60a5fa; /* blue-400 */
   --primary-foreground: #ffffff;
   --secondary: #111827;
   --secondary-foreground: #f8fafc;
   --muted: #111827;
   --muted-foreground: #cbd5e1;
-  --accent: #7c3aed; /* purple-600 accents */
+  --accent: #1d4ed8; /* blue-700 */
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --border: rgba(255, 255, 255, 0.08);

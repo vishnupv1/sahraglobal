@@ -33,8 +33,8 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh flex flex-col relative`}>
         {/* Global background animated blobs (disabled globally; scoped per-page) */}
         {/* <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-          <div className="absolute -top-28 -left-16 h-96 w-96 rounded-full bg-gradient-to-br from-purple-400/60 to-purple-600/40 blur-xl animate-blob" />
-          <div className="absolute top-6 right-0 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-purple-500/50 via-purple-300/40 to-purple-400/45 blur-xl animate-blob animation-delay-2000" />
+          <div className="absolute -top-28 -left-16 h-96 w-96 rounded-full bg-gradient-to-br from-blue-400/60 to-blue-600/40 blur-xl animate-blob" />
+          <div className="absolute top-6 right-0 h-[28rem] w-[28rem] rounded-full bg-gradient-to-br from-blue-500/50 via-blue-300/40 to-blue-400/45 blur-xl animate-blob animation-delay-2000" />
         </div> */}
         {/* Removed top fade overlay to eliminate visual separation between navbar and content */}
         <Navbar />
