@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -78,11 +78,23 @@ export function Navbar() {
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" aria-label="Open menu">
-                <Menu className="h-5 w-5" />
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label={isSheetOpen ? "Close menu" : "Open menu"}
+                className="h-10 w-10 rounded-xl bg-white/70 backdrop-blur border border-gray-200 shadow-sm text-gray-900"
+              >
+                {isSheetOpen ? (
+                  <X className="h-5 w-5 transition-transform duration-200 rotate-90" />
+                ) : (
+                  <Menu className="h-5 w-5 transition-transform duration-200" />
+                )}
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-80 sm:w-72 p-4 sm:p-6">
+            <SheetContent
+              side="right"
+              className="w-80 sm:w-72 p-5 sm:p-6 bg-white/80 backdrop-blur-lg border-l rounded-l-2xl shadow-xl"
+            >
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               <div className="mt-4 sm:mt-2 flex flex-col gap-3 sm:gap-2">
                 {navItems.map((item) => (
