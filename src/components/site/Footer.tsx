@@ -15,7 +15,8 @@
                 <span className="text-xl font-semibold text-gray-900">Starwaylink Services LLC</span>
               </div>
             <p className="mb-6 text-sm text-gray-600">
-              We help businesses scale with modern web, marketing, and operations solutions.
+              We help businesses scale with modern web development, performance marketing, tax & finance,
+              logistics support, data entry, and visa assistance—delivered with reliability and a focus on results.
             </p>
             <div className="flex gap-3">
               {/* <a href="#" className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-900 text-white hover:bg-gray-700">

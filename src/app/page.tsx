@@ -23,7 +23,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="space-y-8 sm:space-y-12 md:space-y-16 pb-0">
-      <section className="relative overflow-visible bg-gradient-to-b from-blue-50/30 via-blue-100/20 to-blue-200/30 -mt-14 sm:-mt-16 pt-14 sm:pt-16">
+      <section className="relative overflow-visible  -mt-14 sm:-mt-16 pt-14 sm:pt-16">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center justify-center px-4 py-12 text-center sm:px-6 sm:py-16 lg:px-8 lg:py-20 overflow-visible">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -54,9 +54,7 @@ export default function Home() {
           >
              Enterprise-grade solutions for {" "}
              <span>
-               <span className="text-red-600">U</span>
-               <span className="text-black">A</span>
-               <span className="text-green-600">E</span>
+               <span className="text-blue-400">UAE</span>
              </span>{" "}
              business
           </motion.h1>
@@ -78,7 +76,7 @@ export default function Home() {
             <Link href="/contact">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg"
+                className="bg-gradient-to-r from-blue-300 to-blue-500 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-2.5 sm:py-3 text-base sm:text-lg"
               >
                 Get a Free Consultation
               </Button>

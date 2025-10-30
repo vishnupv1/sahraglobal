@@ -35,7 +35,7 @@ export default function RootLayout({
         <GlobalBackground />
         {/* Removed top fade overlay to eliminate visual separation between navbar and content */}
         <Navbar />
-        <main className="flex-1 ">{children}</main>
+        <main className="flex-1 pb-16 md:pb-24 lg:pb-32">{children}</main>
         <Footer />
       </body>
     </html>
