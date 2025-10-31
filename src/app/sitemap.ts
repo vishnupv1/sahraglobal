@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.sahraglobal.ae";
+  const baseUrl = "https://www.starwaylinkservices.com";
   return [
     "",
     "/about",
