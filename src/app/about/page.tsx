@@ -49,7 +49,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900 leading-tight"
           >
-            About Starwaylink
+            About Starwaylink - Best Digital Marketing Agency & VAT Services in UAE
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -57,9 +57,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mx-auto mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg text-gray-600 lg:text-xl px-3 sm:px-0"
           >
-            We blend local compliance with modern engineering to deliver secure,
-            scalable, and measurable outcomes—helping UAE organizations build,
-            scale, and grow with confidence.
+            Starwaylink Services LLC is the best digital marketing agency in UAE, offering expert VAT services, software development, and comprehensive business solutions. We blend local compliance with modern engineering to deliver secure, scalable, and measurable outcomes—helping UAE organizations build, scale, and grow with confidence.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -179,7 +177,7 @@ export default function AboutPage() {
                         <span className="flex items-start gap-2">
                           <CheckCircle2 className="mt-0.5 h-4 w-4 text-blue-600" />
                           <span>
-                            Head of Finance — Tax, VAT, and compliance
+                            Head of Finance — Expert VAT services, tax, VAT filing, and compliance
                             specialist for the UAE
                           </span>
                         </span>

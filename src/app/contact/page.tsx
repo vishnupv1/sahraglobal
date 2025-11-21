@@ -63,9 +63,9 @@ export default function ContactPage() {
 
   return (
     <div className="mx-auto w-full px-3 pt-14 sm:pt-16 pb-0 sm:px-4 lg:px-6">
-      <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-3xl font-bold sm:text-4xl">Contact Us</motion.h1>
+      <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-3xl font-bold sm:text-4xl">Contact Best Digital Marketing Agency & VAT Services in UAE</motion.h1>
       <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="mt-3 max-w-3xl text-muted-foreground">
-        Reach out for a consultation. Our office is based in Dubai, UAE.
+        Reach out for a consultation on digital marketing, VAT services, software development, or any of our business solutions. Our office is based in Sharjah Media City (Shams Free Zone), UAE.
       </motion.p>
 
       <div className="mt-8 sm:mt-10 grid gap-6 sm:gap-8 lg:grid-cols-2">
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 <br />
                 Business park in Al Bataeh, United Arab Emirates
                 <br />
-                Phone: +971-XXX-XXXX
+                Phone: +971585993858
                 <br />
                 Email: admin@starwaylinkservices.com
               </div>

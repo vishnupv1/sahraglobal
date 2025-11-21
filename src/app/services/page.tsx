@@ -20,19 +20,19 @@ const sections = [
   {
     id: "web",
     title: "Web Development",
-    body: "Modern websites and apps using Next.js and best practices.",
+    body: "Software development and web development services. Modern websites and apps using Next.js and best practices.",
     Icon: Globe,
   },
   {
     id: "marketing",
     title: "Digital Marketing",
-    body: "SEO, SEM, and content strategies geared for UAE audiences.",
+    body: "Best digital marketing agency in UAE. SEO, SEM, and content strategies for UAE audiences.",
     Icon: LineChart,
   },
   {
     id: "finance",
     title: "Tax & Finance",
-    body: "Corporate tax, VAT filing, bookkeeping, and advisory.",
+    body: "Expert VAT services, VAT filing, corporate tax, bookkeeping, and financial advisory in UAE.",
     Icon: FileSpreadsheet,
   },
   {
@@ -75,7 +75,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.6 }}
                 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
               >
-                Comprehensive solutions to accelerate your UAE business growth
+                Best Digital Marketing Agency, VAT Services & Software Development in UAE
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -83,10 +83,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="mx-auto mt-6 max-w-3xl text-lg text-gray-600 lg:text-xl"
               >
-                From cutting-edge web development and strategic digital
-                marketing to seamless tax compliance and logistics coordination
-                — we deliver results that drive measurable success in the UAE
-                market.
+                Leading digital marketing agency in UAE offering expert VAT services, software development, web development, tax compliance, and logistics solutions. We deliver measurable results that drive business growth in the UAE market.
               </motion.p>
             </motion.div>
 

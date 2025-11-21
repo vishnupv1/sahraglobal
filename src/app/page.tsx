@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Testimonials from "@/components/site/Testimonials";
+import FAQ from "@/components/site/FAQ";
 import {
   TrendingUp,
   Bell,
@@ -34,7 +35,7 @@ export default function Home() {
             <div className="hero-tag-wrapper inline-flex items-center gap-1.5 sm:gap-2 rounded-full border border-blue-200 bg-white/80 px-2.5 sm:px-3 py-1 shadow-sm backdrop-blur-sm">
               <Image
                 src="https://cdn.prod.website-files.com/68ac1aaf56a72b0ff377f38b/68c166d197f96432345f5011_Group%201000000819.svg"
-                alt="reviews-badge"
+                alt="5 Star Reviews - Best Digital Marketing Agency UAE"
                 width={16}
                 height={16}
                 className="hero-tag-image h-4 w-4 sm:h-5 sm:w-5"
@@ -52,11 +53,11 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-gray-900 leading-tight"
           >
-             Enterprise-grade solutions for {" "}
+             Best Digital Marketing Agency & {" "}
              <span>
-               <span className="text-blue-400">UAE</span>
+               <span className="text-blue-400">VAT Services</span>
              </span>{" "}
-             business
+             in UAE
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -64,8 +65,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mx-auto mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg text-gray-600 lg:text-xl px-4 sm:px-0"
           >
-            Build, scale, and grow with confidence. We blend local compliance
-            with modern engineering to deliver measurable outcomes.
+            Leading digital marketing agency in UAE offering expert VAT services, software development, web development, tax & finance, and logistics solutions. Build, scale, and grow with confidence.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -108,7 +108,7 @@ export default function Home() {
                   <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center border border-white/20">
                     <Image
                       src="/nobglogo.png"
-                      alt="Starwaylink"
+                      alt="Starwaylink Services LLC - Best Digital Marketing Agency UAE, VAT Services, Software Development"
                       width={128}
                       height={128}
                       quality={100}
@@ -433,6 +433,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Testimonials />
+      <FAQ />
     </div>
   );
 }

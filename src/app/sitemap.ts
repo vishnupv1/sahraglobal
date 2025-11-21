@@ -2,17 +2,19 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.starwaylinkservices.com";
-  return [
-    "",
-    "/about",
-    "/services",
-    "/industries",
-    "/contact",
-  ].map((path) => ({
+  const routes = [
+    { path: "", priority: 1.0, changeFrequency: "weekly" as const },
+    { path: "/services", priority: 0.9, changeFrequency: "weekly" as const },
+    { path: "/about", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/contact", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/industries", priority: 0.7, changeFrequency: "monthly" as const },
+  ];
+  
+  return routes.map(({ path, priority, changeFrequency }) => ({
     url: `${baseUrl}${path}`,
     lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: path === "" ? 1 : 0.7,
+    changeFrequency,
+    priority,
   }));
 }
 
