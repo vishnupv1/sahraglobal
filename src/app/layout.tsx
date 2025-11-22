@@ -238,10 +238,13 @@ export default function RootLayout({
               '@type': 'LocalBusiness',
               '@id': 'https://www.starwaylinkservices.com/#organization',
               name: 'Starwaylink Services LLC',
+              alternateName: 'Starwaylink',
               image: 'https://www.starwaylinkservices.com/logoOG.png',
+              logo: 'https://www.starwaylinkservices.com/logoOG.png',
               url: 'https://www.starwaylinkservices.com/',
               telephone: '+971585993858',
               priceRange: '$$',
+              description: 'Best digital marketing agency in UAE. Expert VAT services, software development, web development, tax & finance, logistics, and business solutions. Trusted by UAE businesses.',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: 'Sharjah Media City (Shams Free Zone), Business park in Al Bataeh',
@@ -252,21 +255,48 @@ export default function RootLayout({
               },
               geo: {
                 '@type': 'GeoCoordinates',
-                latitude: 25.278288311314654,
-                longitude: 55.67872479069089,
+                latitude: 24.354006899999998,
+                longitude: 53.94857525,
               },
-              openingHoursSpecification: {
-                '@type': 'OpeningHoursSpecification',
-                dayOfWeek: [
-                  'Monday',
-                  'Tuesday',
-                  'Wednesday',
-                  'Thursday',
-                  'Friday',
-                ],
-                opens: '09:00',
-                closes: '18:00',
+              openingHoursSpecification: [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Monday',
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Tuesday',
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Wednesday',
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Thursday',
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Friday',
+                  opens: '09:00',
+                  closes: '18:00',
+                },
+              ],
+              areaServed: {
+                '@type': 'Country',
+                name: 'United Arab Emirates',
               },
+              currenciesAccepted: 'AED',
+              paymentAccepted: 'Cash, Credit Card, Bank Transfer',
+              hasMap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861009.5379097238!2d53.94857525!3d24.354006899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49502acd956061a5%3A0x2d8c82efcc5b53a9!2sStarway%20Link%20Services%20LLC!5e0!3m2!1sen!2sin!4v1763828396652!5m2!1sen!2sin',
             }),
           }}
         />

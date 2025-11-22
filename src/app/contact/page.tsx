@@ -103,20 +103,9 @@ export default function ContactPage() {
                 Email: admin@starwaylinkservices.com
               </div>
               <div className="aspect-[16/9] w-full overflow-hidden rounded-md">
-                {/* <iframe
-                  title="Starway Link Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.7818438207565!2d55.67872479069089!3d25.278288311314654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5929a229f1c75%3A0xb28ae30eb6bb813a!2sSharjah%20Media%20City%20(Shams%20Free%20Zone)!5e0!3m2!1sen!2sin!4v1758775639700!5m2!1sen!2sin"
-                  width="600"
-                  height="450"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                  allowFullScreen
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="h-full w-full"
-                /> */}
                 <iframe
                   title="Starwaylink Services LLC Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.7818438207565!2d55.67872479069089!3d25.278288311314654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5929a229f1c75%3A0xb28ae30eb6bb813a!2sSharjah%20Media%20City%20(Shams%20Free%20Zone)!5e0!3m2!1sen!2sin!4v1758775639700!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861009.5379097238!2d53.94857525!3d24.354006899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49502acd956061a5%3A0x2d8c82efcc5b53a9!2sStarway%20Link%20Services%20LLC!5e0!3m2!1sen!2sin!4v1763828396652!5m2!1sen!2sin"
                   style={{ border: 0 }}
                   className="h-full w-full"
                   allowFullScreen
